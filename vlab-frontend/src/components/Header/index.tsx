@@ -7,8 +7,8 @@ const notPage = [];
 const Header = () => {
   return (
     <HeaderStyled>
-      <div className="">로고이미지</div>
-      <div>로그인</div>
+      <div className="header_logo">로고이미지</div>
+      <div className="header_login">로그인</div>
     </HeaderStyled>
   );
 };
