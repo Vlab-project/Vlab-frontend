@@ -9,7 +9,7 @@ interface ChioceType {
   imgsrc: any;
 }
 
-//top 영역
+//top > choice 영역
 const Choice = ({ title, content, imgsrc }: ChioceType) => {
   return (
     <ChoiceStyled $bgImg={bgimg.src}>

@@ -14,8 +14,8 @@ export const TopSectionStyled = styled.div<{ $bgImg: string }>`
     height: 600px;
     padding: 50px 0px;
 
-    background-image: url(${(props) => props.$bgImg});
-    background-repeat: no-repeat;
-    background-position: center;
+    background: url(${(props) => props.$bgImg}) 50% 40% no-repeat;
+    background-size: 120%;
+    height: unset;
   }
 `;
